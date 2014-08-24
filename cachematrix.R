@@ -1,8 +1,8 @@
 ## Solves and caches the inverse of a matrix.
 ## If the inverse already exists in the cache,
-## cacheSolve returns the cached inverse.
+##   cacheSolve returns the cached inverse.
 ## If the inverse is not in the cache,
-## cacheSolve will solve the inverse and store it in the cache
+##   cacheSolve will solve the inverse and store it in the cache
 ## Setting a new matrix will invalidate the cache. 
 
 ## Caches the inverse of a matrix.
@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Solves or returns the cached inverse of a matrix.
-## Takes a cacheMatrix object as an argument.
+## Takes an object returned by makeCacheMatrix as an argument.
 ## Also takes options to be passed to the solve function. 
 ## Used in conjunction with makeCacheMatrix.
 
